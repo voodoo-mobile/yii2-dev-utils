@@ -1,0 +1,39 @@
+{
+  "name": "voodoo-mobile/yii2-dev-utils",
+  "description": "Utils and tools for development projects, based on Yii2",
+  "type": "yii2-module",
+  "keywords": [
+    "voodoo-mobile",
+    "yii",
+    "yii2",
+    "yii 2",
+    "utils",
+    "tools"
+  ],
+  "homepage": "https://github.com/voodoo-mobile/yii2-dev-utils",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Voodoo Mobile Ltd.",
+      "email": "public@voodoo-mobile.com",
+      "homepage": "https://voodoo.rocks",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/voodoo-mobile/yii2-dev-utils/issues",
+    "source": "https://github.com/voodoo-mobile/yii2-dev-utils"
+  },
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": "^2.0.6"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "vm\\dev\\": "src"
+    }
+  }
+}
